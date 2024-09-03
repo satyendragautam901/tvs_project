@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TVS Electronics | Buy Printers, POS &amp; other TVS-e Products Online</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/c5e23c923d.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="images/icon/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+    <style>
+        .gradient-border {
+            position: relative;
+            padding: 1rem;
+        }
+
+        .gradient-border::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: -1;
+            /* background: linear-gradient(45deg, #f06, rgb(6, 41, 100)); */
+            /* Adjust gradient colors as needed */
+            border-radius: inherit;
+            padding: 2px;
+            /* Adjust the thickness of the border */
+        }
+
+        .gradient-border>* {
+            position: relative;
+            z-index: 1;
+        }
+
+        /* humberger menu */
+
+        .menu {
+            transition: opacity 0.3s ease, transform 0.3s ease;
+        }
+
+        .menu-hidden {
+            opacity: 0;
+            transform: scale(0.9);
+            pointer-events: none;
+        }
+
+        .menu-visible {
+            opacity: 1;
+            transform: scale(1);
+            pointer-events: auto;
+        }
+    </style>
+
+</head>
+
+<body class="scroll-smooth">
+
+    <!-- wrapper class -->
+
+    <div class="">
+
+        <!-- header adn hero sectio included -->
+
+        <div class="relative bg-cover bg-center bg-no-repeat w-full h-[85vh] "
+            style="background-image: url(images/home-banner.png);">
+            <!-- support -->
+
+            <nav class="text-1xl bg-sky-500 text-white p-1 text-right mb-2">
+                <a href="mailto:support@tvs-e.in">Service Support: support@tvs-e.in</a>
+                <a href="https://wa.me/917448804201" class="ml-4 mr-1">or +91 74488 04201 (Whatsapp)</a>
+            </nav>
+
+            <!-- header start -->
+
+            <header>
+                <!-- logo -->
+
+                <div class="flex row justify-between">
+                    <div class="ml-4">
+                        <img src="images/logo.webp" alt="logoOfTVS">
+                    </div>
+
+                    <!-- icons -->
+
+
+                    <div class="mr-4 space-x-4 flex">
+                        <a href="https://www.linkedin.com/in/satyendra-gautam-525220244/" target="_blank">
+                            <img src="images/icon/facebookic-2.png" alt="LinkedIn" class="w-8 h-8">
+                            <!-- Adjust size as needed -->
+                        </a>
+
+                        <a href="https://github.com/satyendragautam901" target="_blank">
+                            <img src="images/icon/instaic-2.png" alt="Instagram" class="w-8 h-8">
+                        </a>
+
+                        <a href="https://x.com/SatyendraG20577" target="_blank">
+                            <img src="images/icon/twitteric-2.png" alt="Twitter" class="w-8 h-8">
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/satyendra-gautam-525220244/" target="_blank">
+                            <img src="images/icon/youtubeic-2.png" alt="YouTube" class="w-8 h-8">
+                        </a>
+
+                        <a href="https://github.com/satyendragautam901" target="_blank">
+                            <img src="images/icon/shoppingic-2.png" alt="Shopping" class="w-8 h-8">
+                        </a>
+
+                        <a href="https://x.com/SatyendraG20577" target="_blank">
+                            <img src="images/icon/bloggeric-2.png" alt="Blogger" class="w-8 h-8">
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/satyendra-gautam-525220244/" target="_blank">
+                            <img src="images/icon/menu-item-2.png" alt="Instagram" class="w-8 h-8">
+                        </a>
+
+                        <!--toggle menu-->
+                        <div>
+                            <!-- Toggle Button -->
+                            <button id="menu-toggle" class="text-white p-2 rounded-lg focus:outline-none z-10">
+                                <!-- Font Awesome hamburger icon -->
+                                <i class="fas fa-bars"></i>
+                            </button>
+
+                            <!-- Menu -->
+                            <div id="menu"
+                                class="absolute top-16 right-4 bg-white shadow-lg rounded-lg p-4 menu menu-hidden">
+                                <a href="#" class="block py-2 px-4 hover:bg-gray-200">Discover</a>
+                                <a href="#" class="block py-2 px-4 hover:bg-gray-200">Products</a>
+                                <a href="#" class="block py-2 px-4 hover:bg-gray-200">Services</a>
+                                <a href="#" class="block py-2 px-4 hover:bg-gray-200">Reach Us</a>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+                <!-- Text -->
+
+                <div class="absolute translate-y-60 ml-4">
+                    <span class="uppercase text-white text-5xl font-bold">the idea of</span> <br>
+                    <span class="text-yellow-200 uppercase text-5xl font-bold">infinite evolution</span>
+                </div>
+
+                <!-- support and hands-->
+
+                <div class="relative h-[100px] flex col"> <!-- Parent container with relative positioning -->
+                    <div class="absolute right-0 top-3/4 transform -translate-y-1/4">
+                        <a href="#"> <img src="images/pl-hands.png" alt="Hands" class="h-[50px]"> </a>
+                        <a href="#" class="block mt-2"><img src="images/support.png" alt="Support" class="h-[50px] ">
+                        </a>
+                    </div>
+                </div>
+
+
+                <!-- box for services and products-->
+
+                <div class="flex h-screen justify-center items-center translate-y-50 relative">
+                    <div class="flex gap-[20px]">
+                        <div class="relative inline-block">
+                            <img src="images/services.png" alt="Services" class="h-[120px] w-[150px] bg-cover">
+                            <span
+                                class="absolute inset-0 flex items-center justify-center text-white text-lg font-bold">
+                                SERVICES
+                            </span>
+                        </div>
+
+                        <div class="relative inline-block">
+                            <a href="#">
+                                <img src="images/products.png" alt="Products" class="h-[120px] w-[150px] ">
+                                <span
+                                    class=" absolute inset-0 flex items-center justify-center text-white text-lg font-bold">PRODUCT</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </header>
+        </div>
+
+        <!-- first section start-->
+
+        <section>
+
+            <!-- top level div -->
+            <div class="mt-20 w-[60%] mx-auto ">
+
+                <div class="flex col justify-center items-center">
+
+                    <!-- section heading -->
+
+                    <h3 class="font-bold font-bold text-5xl uppercase opacity-40 mr-4">we<br>evolve to <br>empower</h3>
+                    <!-- description-->
+                    <div class="font-sans ml-5">
+                        <p>The world as we see it is evolving, with new opportunities and fresh
+                            challenges branching off at
+                            every turn.
+                            We look forward to each day, with an eagerness to stay relevant and to deliver value. And,
+                            we have
+                            met each
+                            challenge with powerful ideas – from our early days to the present where we offer a vast
+                            number of
+                            solutions to
+                            the electronics industry. <br> <br>
+                            This mindset has helped us anticipate and adapt to new developments. As our customers
+                            navigate the
+                            shape-shifting world of
+                            commerce, we stand by them, ever ready to transform and offer up-to-date support. <br><br>
+                            We call this Infinite Evolution.
+                        </p>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+        </section>
+
+        <!-- second section -->
+
+        <section class=" bg-gray-100 min-h-[100vh] ">
+
+            <div class="mt-20 w-[60%] mx-auto translate-y-10">
+
+
+                <div class="flex col justify-center items-center">
+                    <!-- section heading -->
+                    <h3 class="font-bold font-bold text-7xl uppercase opacity-50">expertise<br>across<br>segments</h3>
+
+                    <p class="font-sans ml-5">The world as we see it is evolving, with new opportunities and fresh
+                        challenges branching off at
+                        every turn.
+                        We look forward to each day, with an eagerness to stay relevant and to deliver value. And, we
+                        have
+                        met each
+                        <br> <br>
+                        This mindset has helped us anticipate and adapt to new developments. As our customers navigate
+                        the
+                        shape-shifting world of
+                        commerce, we stand by them, ever ready to transform and offer up-to-date support. <br><br>
+
+                    </p>
+                </div>
+            </div>
+
+            <!-- top level div for boxes -->
+
+            <div class="flex w-6/12 justify-around mt-20 w-[70%] mx-auto">
+
+                <!-- box1-->
+                <div
+                    class="gradient-border p-4 bg-white border-2 border-blue-500 rounded-2xl h-[400px] w-[200px] flex flex-col justify-center items-center">
+                    <figure>
+                        <img src="images/box1/segments1.webp" alt="segments1" class="block">
+                        <figcaption class="capitalize text-center">
+                            Point-of-Sale <br>solutions
+                        </figcaption>
+                    </figure>
+
+                    <figure class="mt-5 ">
+                        <img src="images/box1/segments2.webp" alt="segments2" class="block">
+
+                        <figcaption class="capitalize text-center">
+                            transaction automation solutions
+                        </figcaption>
+                    </figure>
+                </div>
+
+
+
+                <!-- box2-->
+
+                <div class="gradient-border p-4 bg-white border-2 border-red-400 rounded-2xl h-[400px] w-[400px] ">
+
+                    <!--row1-->
+
+                    <div class="flex justify-center justify-between">
+                        <figure>
+                            <img src="images/box1/segments3.webp" alt="segments3" class="block ">
+                            <figcaption class="capitalize text-center">
+                                repair engineering <br>solutions
+                            </figcaption>
+                        </figure>
+
+                        <figure>
+                            <img src="images/box1/segments5.webp" alt="segments2" class="block">
+                            <figcaption class="capitalize text-center">
+                                Installation and Demo <br>Solutions
+                            </figcaption>
+                        </figure>
+
+
+                    </div>
+
+                    <!--row2-->
+
+                    <div class="flex justify-center justify-between">
+                        <figure>
+                            <img src="images/box1/segments4.webp" alt="segments2" class="block">
+                            <figcaption class="capitalize text-center">
+                                Gadget and Appliance <br> Protection Plans
+                            </figcaption>
+                        </figure>
+
+                        <figure>
+                            <img src="images/box1/segments6.webp" alt="segments2" class="block">
+                            <figcaption class="capitalize text-center">
+                                parts management <br>solutions
+                            </figcaption>
+                        </figure>
+                    </div>
+
+
+                </div>
+
+
+
+                <!-- box3-->
+
+                <div
+                    class="gradient-border p-4 bg-white border-2 border-blue-500 rounded-2xl h-[400px] w-[200px] flex flex-col justify-center items-center">
+                    <figure>
+                        <img src="images/box1/segments7.webp" alt="segments1" class="block">
+                        <figcaption class="capitalize text-center">
+                            e-recycling <br>solutions
+                        </figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="images/box1/segments8.webp" alt="segments2" class="block">
+                        <figcaption class="capitalize text-center">
+                            e-auctioning <br>solutions
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+
+
+        </section>
+
+        <!-- third section -->
+
+        <section class="relative bg-cover bg-center min-h-[100vh] text-white"
+            style="background-image: url('images/service-unbounded.png');">
+            <div class=" w-[60%] mx-auto translate-y-40">
+                <h2 class="font-bold font-bold text-7xl uppercase opacity-50">service,<br>unbounded</h2>
+
+                <!-- text under service unbound -->
+
+                <!-- --row1-- -->
+
+                <div class="flex  justify-between">
+                    <div class="flex-1 text-center p-4  border-r border-yellow-400">
+                        <h2 class="text-3xl font-semibold">320+</h2>
+                        <p class="mt-2 text-gray-600">Walk-In Centers</p>
+                    </div>
+                    <div class="flex-1 text-center p-4  border-r border-yellow-400">
+                        <h2 class="text-3xl font-semibold">6</h2>
+                        <p class="mt-2 text-gray-600">Branch Offices - Pan India</p>
+                    </div>
+                    <div class="flex-1 text-center p-4  border-r border-yellow-400">
+                        <h2 class="text-3xl font-semibold">5000+</h2>
+                        <p class="mt-2 text-gray-600">Feet On Street</p>
+                    </div>
+                    <div class="flex-1 text-center p-4 ">
+                        <h2 class="text-3xl font-semibold">47</h2>
+                        <p class="mt-2 text-gray-600">Collection Points</p>
+                    </div>
+                </div>
+
+                <!-- --row2-- -->
+
+                <div class="flex  justify-between">
+                    <div class="flex-1 text-center p-4  border-r border-yellow-400">
+                        <h2 class="text-3xl font-semibold">01 1</h2>
+                        <p class="mt-2 text-gray-600">Repair Factory</p>
+                    </div>
+                    <div class="flex-1 text-center p-4  border-r border-yellow-400">
+                        <h2 class="text-3xl font-semibold">700+</h2>
+                        <p class="mt-2 text-gray-600">Authorized Service Partners- Pan India</p>
+                    </div>
+                    <div class="flex-1 text-center p-4  border-r border-yellow-400">
+                        <h2 class="text-3xl font-semibold">14</h2>
+                        <p class="mt-2 text-gray-600">Warehouse</p>
+                    </div>
+
+                </div>
+
+
+                <p class="mt-4 text-lg">Our scale of operations is as extensive as it is deep. We have created a
+                    solution-oriented infrastructure
+                    that benefits both our OEM partners and customers. Our state-of-the-art facilities with stringent
+                    process control ensure compliance and quality deliverables.</p>
+            </div>
+        </section>
+
+        <!--Trousted by leaders -->
+
+        <section class="min-h-[100vh]">
+
+            <!-- images -->
+
+            <h2 class="font-bold font-bold text-7xl uppercase opacity-30 text-center">Trusted by leaders </h2>
+
+            <div class="flex flex-col space-y-8 mt-20 w-[80%] mx-auto translate-y-10">
+                <!-- --row1-- -->
+                <div class="flex justify-between items-center">
+                    <img src="images/trousted/row1/samsung-logo.png" alt="Samsung Logo" class="w-[150px] h-[50px]">
+                    <img src="images/trousted/row1/mi-logo.png" alt="Mi Logo" class="w-[80px] h-[60px]">
+                    <img src="images/trousted/row1/hp-logo.webp" alt="HP Logo" class="w-[70px] h-[50px]">
+                    <img src="images/trousted/row1/dell-logo.png" alt="Dell Logo" class="w-[116px] h-[86px]">
+                    <img src="images/trousted/row1/asus_logo-removebg-preview.png" alt="Asus Logo"
+                        class="w-[136px] h-[86px]">
+                </div>
+
+                <!-- --row2-- -->
+
+                <div class="flex justify-evenly items-center">
+                    <img src="images/trousted/row2/amazon-logo.png" alt="" class="w-[150px] h-[50px] space-x-2">
+                    <img src="images/trousted/row2/future-logo.png" alt="" class="w-[150px] h-[50px] space-x-2">
+                    <img src="images/trousted/row2/hdfc-logo.png" alt="" class="w-[150px] h-[50px] space-x-2">
+
+
+                </div>
+
+                <!-- --row3-- -->
+
+                <div class="flex justify-between items-center">
+                    <img src="images/trousted/row3/axis-logo.png" alt="" class="w-[150px] h-[50px] space-x-2">
+                    <img src="images/trousted/row3/eureka-logo.webp" alt="" class="w-[150px] h-[50px] space-x-2">
+                    <img src="images/trousted/row3/fiserv-logo.png" alt="" class="w-[150px] h-[50px] space-x-2">
+
+                </div>
+
+                <!-- --row4-- -->
+
+                <div class="flex justify-around ">
+
+                    <img src="images/trousted/row4/jbl1-1024x922.webp" alt="" class="w-[150px] h-[100] space-x-2">
+                    <img src="images/trousted/row4/bose.png
+                    " alt="" class="w-[150px] h-[100] space-x-2">
+                    <img src="images/trousted/row4/vu.webp" alt="" class="w-[150px] h-[100] space-x-2">
+
+                </div>
+
+
+
+            </div>
+        </section>
+
+
+        <!-- footer and ..... -->
+        <section>
+
+
+            <footer class="bg-gray-800 flex justify-evenly">
+
+                <div class=" text-white py-4">
+                    <a href="reach-us/index.html" class="text-yellow-200">Reach us</a><br>
+                    <a href="reach-us/index.html" class="fmenu2">Enquiries</a><br>
+                    <a href="careers/index.html" class="fmenu2">Careers</a><br>
+                    <a href="../accounts.google.com/v3/signin/identifier1074.html" class="fmenu2"
+                        target="_blank">Internship program</a><br>
+                    <a href="investor-relations/index.html" class="fmenu2">Investor relations</a><br>
+                    <a href="smartodr/index.html" class="fmenu2">Smart ODR</a><br>
+                    <a href="discover/index.html#policies" class="fmenu2">Policies</a><br>
+                    <a href="wp-content/downloads/TVS-E%20Brochure_Sep_21.pdf" class="fmenu2">Download Catalogue</a><br>
+                    <a href="product-support/index.html" class="fmenu2">Download Drivers</a><br>
+                    <a href="reach-us/index.html#storelocator" class="fmenu2">Service centers</a><br>
+                    <a href="blog/index.html" class="fmenu2">Blog</a><br>
+                </div>
+
+
+                <div class=" text-white py-4">
+                    <a href="discover/index.html" class="text-yellow-200">Explore</a><br>
+                    <a href="products/index.html" class="fmenu2">TVS-E products</a><br>
+                    <a rel="nofollow" target="_blank" href="../tvseassure.in/index.html" class="fmenu2">Preventive
+                        Maintanence for Home Appliance</a><br>
+                    <a href="services-for-oem/index.html" class="fmenu2">Services for OEMs</a><br>
+                    <a href="e-waste-management-services/index.html" class="fmenu2">E-Waste management
+                        services</a><br>
+                    <a href="e-auction-services/index-2.html" class="fmenu2">E-Auction services</a><br>
+                    <a href="infra-managed-services/index-2.html" class="fmenu2">Infra Managed Services</a><br>
+                    <a href="discover/index.html" class="fmenu2">About TVS-E</a><br>
+                    <a href="sitemap.xml" class="fmenu2">Site map</a>
+                </div>
+
+                <div class="text-white py-4">
+                    <a rel="nofollow" class="text-yellow-200">Purchase</a><br>
+                    <a rel="nofollow" class="fmenu2" target="_blank" href="../store.tvs-e.in/index.html">Shop
+                        online</a><br>
+                    <!--<a href="../reach-us/" class="fmenu2">Contact a sales rep</a><br>-->
+                    <a rel="nofollow" target="_blank" href="../estore.tvs-e.in/index.html" class="fmenu2">Purchase
+                        warranty (TVS-E Products)</a><br>
+                    <a rel="nofollow" target="_blank" href="../tvseassure.in/index.html" class="fmenu2">Repair and
+                        Maintenance Services (Home Appliance)</a><br>
+                    <a rel="nofollow" target="_blank" href="../locate.tvs-e.in/index.html" class="fmenu2">Locate a
+                        branch</a>
+                </div>
+
+                <div class="">
+                    <h2 class="text-yellow-200 py-4">Stay Connected</h2>
+
+                    <div class="flex ">
+                        <a href="https://www.linkedin.com/in/satyendra-gautam-525220244/" target="_blank">
+                            <img src="images/icon/facebookic-2.png" alt="LinkedIn" class="w-8 h-8">
+                            <!-- Adjust size as needed -->
+                        </a>
+
+                        <a href="https://github.com/satyendragautam901" target="_blank">
+                            <img src="images/icon/instaic-2.png" alt="Instagram" class="w-8 h-8">
+                        </a>
+
+                        <a href="https://x.com/SatyendraG20577" target="_blank">
+                            <img src="images/icon/twitteric-2.png" alt="Twitter" class="w-8 h-8">
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/satyendra-gautam-525220244/" target="_blank">
+                            <img src="images/icon/youtubeic-2.png" alt="YouTube" class="w-8 h-8">
+                        </a>
+                    </div>
+                </div>
+            </footer>
+        </section>
+
+    </div>
+
+    <!-- js file links-->
+    <script src="script.js"></script>
+</body>
+
+</html>
